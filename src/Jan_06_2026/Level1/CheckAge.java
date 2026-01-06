@@ -1,4 +1,4 @@
-package Jan_06_2026;
+package Jan_06_2026.Level1;
 
 import java.util.Scanner;
 
