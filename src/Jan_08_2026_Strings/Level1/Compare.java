@@ -1,4 +1,4 @@
-package Jan_08_2026.Level1;
+package Jan_08_2026_Strings.Level1;
 
 import java.util.Scanner;
 
@@ -9,8 +9,14 @@ public class Compare {
         String s1 = sc.next();
         String s2 = sc.next();
 
-        if(s1 == s2) {
-            System.out.println("s1 == s2");
+        if(s1.length() == s2.length()){
+            boolean flag = true;
+            for(int i=0; i<s1.length(); i++) {
+                if (s1.charAt(i) != s2.charAt(i)) {
+                    flag = false;
+                }
+            }
+            System.out.println("s1 equal to s2 : " + flag);
         }
         else {
             System.out.println("s1 != s2");
