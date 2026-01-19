@@ -1,4 +1,4 @@
-package Inheritance_Jan_19_01_2026;
+package Inheritance_Jan_19_01_2026.AssistedProblems;
 
 public class Animal {
     public String name;
