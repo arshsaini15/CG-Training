@@ -25,7 +25,7 @@ public class UC4 {
         Quantity q7 = new Quantity(1.0, LengthUnit.CENTIMETER);
         Quantity q8 = new Quantity(0.393701, LengthUnit.INCH);
 
-        System.out.println("1 cm == 0.393701 inch: " + q7.equals(q8)); // true (may fail if precision issue)
+        System.out.println("1 cm == 0.393701 inch: " + q7.equals(q8)); // true
 
         // Same unit equality
         Quantity q9 = new Quantity(2.0, LengthUnit.YARD);
